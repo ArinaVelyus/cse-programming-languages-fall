@@ -200,7 +200,7 @@ read_word:
 		mov byte [r8 + rcx], 0
 		mov rdx, rcx
 		mov rax, r8
-		jmp. end
+		jmp .end
    	.end:
 		ret
 
