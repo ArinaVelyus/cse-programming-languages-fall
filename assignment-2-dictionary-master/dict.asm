@@ -2,7 +2,6 @@
 %define DQ_SIZE 8
 
 global find_word
-
 extern string_length
 extern string_equals
 
@@ -30,4 +29,3 @@ find_word:
 	.error:
 		xor rax, rax
 		ret
-	
