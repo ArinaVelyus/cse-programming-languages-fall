@@ -13,3 +13,4 @@
 		%fatal "В аргументе 1 ошибка!"
 	%endif
 %endmacro
+
