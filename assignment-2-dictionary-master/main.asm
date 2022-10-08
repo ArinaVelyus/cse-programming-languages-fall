@@ -26,7 +26,7 @@ _start:
 	test rax, rax
 	jne .success_read_buffer
 	mov rdi, buffer_overflow
-	call print_error
+	call print_err
 	call print_newline
 	call exit
 	.success_read_buffer:
@@ -37,7 +37,7 @@ _start:
 		test rax, rax
 		jne .success_key_found
 		mov rdi, not_found
-		call print_error
+		call print_err
 		call print_newline
 		call exit
 	.success_key_found:
