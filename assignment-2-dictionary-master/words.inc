@@ -8,3 +8,4 @@ db "key2_value", 0
 
 colon "key 1", first_word
 db "key1_value", 0 
+
